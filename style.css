@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(216, 214, 214);
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 80px;
+    text-align: center;
+    display: flex;
+
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 10px;
+    
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #cc7e0a;
+    text-decoration: none;
+}
+.hero-img .hero-image{
+    width: 250px;
+    height:300px;
+    
+}
+.hero-image{
+    box-shadow: 5px 5px 10px goldenrod;
+}
+
+section {
+    margin: 40px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: rgb(8, 80, 146);
+}
+.about{
+    font-weight: bold;
+    color: rgb(8, 6, 4);
+}
+
+section p, section ul {
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills ul li {
+    background: #eaeaea;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.project a {
+    text-decoration: none;
+    color: #333;
+    background: rgb(253, 252, 253);
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.more{
+    
+    color: olive;
+}
+.email{
+    color: blueviolet;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
